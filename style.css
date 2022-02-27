@@ -87,6 +87,7 @@ body{
 	margin-bottom: 100px;
 	color: black;
 	font-weight: bold;
+	z-index: 49;
 }
 .mark .zero{
 	color: #fc0aa8;
@@ -247,26 +248,7 @@ body{
 .projects a:hover{
 	color: #f7f707;
 }
-@media screen and (max-width: 766px){
-	.nav-item{
-		display: none;
-	}
-	.progress-text{
-	display: flex;
-	flex-direction: column;
-   }
-   .progress-text .pera{
-	width: 	100%;
-	font-size: 18px;
-   }
-   .progress-text table{
-	padding-left: 0px;
-	overflow: hidden;
-  }
-  #skill{
-  	padding-left: 0px;
-  }
-}
+
 #contact{
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -355,6 +337,55 @@ form,table{
 	width: 200px;
 	border-radius: 50%;
 }
+#navbar-resp{
+	display: none;
+}
+#navbar-resp{
+	padding-top: 50px;
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	color: black;
+	height: 50vh;
+	font-size: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	z-index: 50;
+	display: none;
+}
+li{
+	list-style: none;
+}
+#navbar-resp a{
+	text-decoration: none;
+	color: black;
+}
+.hemburger:hover{
+	color: black;
+}
+
+@media screen and (max-width: 766px){
+	.nav-item{
+		display: none;
+	}
+	.progress-text{
+	display: flex;
+	flex-direction: column;
+   }
+   .progress-text .pera{
+	width: 	100%;
+	font-size: 18px;
+   }
+   .progress-text table{
+	padding-left: 0px;
+	overflow: hidden;
+  }
+  #skill{
+  	padding-left: 0px;
+  }
+}
+
 @media screen and (min-width: 767px){
 	.hemburger{
 		display: none;

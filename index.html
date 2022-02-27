@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="C:\Users\91964\Desktop\boot-osm\fontawesome-free-5.15.4-web\fontawesome-free-5.15.4-web\css\all.css">
+	<link rel="stylesheet" type="text/css" href="C:\Users\91964\Desktop\useful\porttf\boot-osm\fontawesome-free-5.15.4-web\fontawesome-free-5.15.4-web\css\all.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" defer src="script.js"></script>
 	<title>portfolio</title>
 </head>
 <body>
@@ -19,8 +20,22 @@
     		<li><a href="#team">Team    </a></li>
     		<li><a href="#contact">Contact</a></li>
     	</ul>
-    	<div class="hemburger"><i class="fas fa-bars"></i></div>
+    	<div class="hemburger" onclick="def1()"><i class="fas fa-bars" id="hembur"></i></div>
     </nav>
+
+    <!--navbar for responsiveness-->
+    
+    <nav id="navbar-resp">
+        <ul class="nav-item-resp" onclick="def2()">
+            <li><a href="#home" onclick="def2()">Home    </a></li>
+            <li><a href="#about" onclick="def2()">About   </a></li>
+            <li><a href="#services" onclick="def2()">Service </a></li>
+            <li><a href="#skill" onclick="def2()">Skill   </a></li>
+            <li><a href="#team" onclick="def2()">Team    </a></li>
+            <li><a href="#contact" onclick="def2()">Contact</a></li>
+        </ul>
+    </nav>
+
 
     <div id="home">
         <section class="div1">
@@ -49,7 +64,7 @@
 
             <div class="text">
                 <h2>My name is Sharad Kumar Sahu</h2>
-                <p>I am a full stack web developer and python devloper i can make any type of website like animated website responsive website single page website i have good knowledge of front end backend both with database and some bacend framwork like django node etc im currently pursuying btech by computer science department and i am looking for internship for full time </p>
+                <p>I am a full stack web developer and python devloper I can make any type of website like animated website, responsive website, single page website, I have good knowledge of front-end & backend both with database and some backend framwork like Django node etc I am currently pursuing B.Tech. by Computer Science Department and I am looking for Internship for full time </p>
 
                 <button>Downlode CV</button>
             </div>
